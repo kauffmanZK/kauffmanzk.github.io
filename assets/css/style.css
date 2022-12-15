@@ -1,0 +1,131 @@
+.mainBody {
+    margin-top: 80px;
+    width: 90%;
+    height: fill;
+    background-color: #E1B37E;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+h3 {
+    margin-top: 8px;
+}
+.dropdownButton {
+    float: right;
+    margin-right: 50%;
+    background-color: #21170C;
+    color: white;
+}
+.divGame {
+    margin-top: 5px;
+    padding: 25px;
+    background-color: #E1B37E;
+    display: none;
+    border-style: double;
+    border-width: 8px;
+}
+.loginDiv {
+    margin-top: 250px;
+}
+.innerLoginDiv {
+    background-color: $colorOne;
+    padding: 30px;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 25px
+}
+#loginHeader {
+    margin-bottom: 25px;
+    color: #21170C;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 15px;
+    font-family: "Impact";
+}
+.libraryPic {
+    width: 45%;
+    float: right;
+    margin: 25px;
+}
+.divGameLink {
+    text-align: center;
+    color: #21170C;
+    text-decoration: underline;
+}
+#gamePlayerEmbed {
+    width: 100%;
+    height: 900px;
+}
+#myCarousel {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+#commentInput {
+    width: 100%;
+}
+.commentDisplay {
+    border-style: double;
+    border-width: 2px;
+    width: 100%;
+    background-color: white;
+}
+.logoutButton {
+    padding: 8px;
+    margin: 0px;
+}
+a {
+    color: white;
+}
+.item {
+    height: auto;
+    max-height: 700px;
+}
+.carousel-img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.logoutLink {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar {
+    background-color: #462D10;
+}
+.navbar-brand {
+    color: white !important;
+}
+body {
+    background-color: #D5964D;
+}
+.nav > li > a {
+    color: white !important;
+}
+td, th {
+    border-top: 1px solid #462D10;
+}
+#jumbotronMain {
+    background-color: #462D10;
+}
+#jumbotronMain > h1, #jumbotronMain > p {
+    color: white;
+}
+.btn {
+    background-color: #21170C;
+    color: white;
+    border-style: dotted;
+    border: 2px;
+}
+.btn-danger {
+    background-color: red !important;
+}
+
+$colorOne: #E1B37E;
+$colorTwo: #D5964D;
+$colorThree: #996224;
+$colorFour: #462D10;
+$colorFive: #21170C;

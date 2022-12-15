@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Swiryn Game Design</title>
+        <link href="https://bootstrapdocs.com/v3.3.4/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://static.codehs.com/cdn/latest/chsfirebase/chsfirebase.min.js"></script>
+        <link href="/assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar-inverse navbar  navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Swiryn Class Games</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="library.html">Library</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="yesLogin"><a class="loginUsernameDisplay"></a></li>
+                        <li class="logoutButton yesLogin"><button class="btn btn-danger"><a>Logout</a></button></li>
+                        <li class="noLogin"><a href="login.html">Login</a></li>
+                        <li class="noLogin"><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mainBody table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">Artist</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Character Controller Test</th>
+                        <td>Mr. Swiryn</td>
+                        <td><button class="dropdownButton dropdownGameOne">See More</button></td>
+                    </tr>
+                    <tr>
+                        <th>The Doom Dungeon of Death</th>
+                        <td>Zane Kauffman</td>
+                        <td><button class="dropdownButton dropdownGameTwo">See More</button></td>
+                    </tr>
+                    <tr>
+                        <th>Invezter Site</th>
+                        <td>Eric Kronquist</td>
+                        <td><button class="dropdownButton dropdownGameThree">See More</button></td>
+                    </tr>
+                    <tr>
+                        <th>Game 4</th>
+                        <td>Artist 4</td>
+                        <td><button class="dropdownButton dropdownGameFour">See More</button></td>
+                    </tr>
+                    <tr>
+                        <th>Game 5</th>
+                        <td>Artist 5</td>
+                        <td><button class="dropdownButton dropdownGameFive">See More</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container lowerLibrary">
+            <div class="divGame divGameOne row">
+                <img src="/assets/pictures/GameOne.png" class="libraryPic">
+                <h2>Character Controller Test</h2>
+                <h4>Artist: Mr. Swiryn</h4>
+                <p class="col-xs-5">A simple character controller designed to showcase and demonstrate a control scheme and basic AI. Contains a few obstacles as well!</p>
+                <a href="assets/game-pages/game-page-one.html" class="col-xs-12 divGameLink"><h5>Wanna Play Me? Click Here!</h5></a>
+            </div>
+            <div class="divGame divGameTwo row">
+                <img src="/assets/pictures/GameTwo.png" class="libraryPic">
+                <h2>The Doom Dungeon of Death</h2>
+                <h4>Artist: Zane Kauffman (zakk)</h4>
+                <p class="col-xs-5">Locked in a dungeon in the center of the Earth, survive by fighting off your enemies. Collect points and buy better weapons. Can you get the highest score of the day?</p>
+                <a href="assets/game-pages/game-page-two.html" class="col-xs-12 divGameLink"><h5>Wanna Play Me? Click Here!</h5></a>
+            </div><div class="divGame divGameThree row">
+                <img src="assets/pictures/GameThree.png" class="libraryPic">
+                <h2>Invezter Site</h2>
+                <h4>Artist: Eric Kronquist</h4>
+                <p class="col-xs-5">A mock stock trading website. Buy and sell stocks, see your portfolio, and use the amazing UI to navigate your stock investing adventure.</p>
+                <a href="assets/game-pages/game-page-three.html" class="col-xs-12 divGameLink"><h5>Wanna Visit Me? Click Here!</h5></a>
+            </div><div class="divGame divGameFour row">
+                <img src="https://blog.hootsuite.com/wp-content/uploads/2021/07/free-stock-photos-03-scaled.jpeg" class="libraryPic">
+                <h2>Game Title 4</h2>
+                <h4>Artist: Artist 4</h4>
+                <p class="col-xs-5">This is some more information about the game. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <a href="assets/game-pages/game-page-four.html" class="col-xs-12 divGameLink"><h5>Wanna Play Me? Click Here!</h5></a>
+            </div><div class="divGame divGameFive row">
+                <img src="https://blog.hootsuite.com/wp-content/uploads/2021/07/free-stock-photos-03-scaled.jpeg" class="libraryPic">
+                <h2>Game Title 5</h2>
+                <h4>Artist: Artist 5</h4>
+                <p class="col-xs-5">This is some more information about the game. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <a href="assets/game-pages/game-page-five.html" class="col-xs-12 divGameLink"><h5>Wanna Play Me? Click Here!</h5></a>
+            </div>
+            <!-- Comment Section !-->
+            <div class="commentDiv">
+                <h2>Comments:</h2>
+                <p class="commentDisplay"></p>
+                <textarea id="commentInput" placeholder="Write your own comment!" value=""></textarea>
+                <button class="btn" id="commentSubmit">Send</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://bootstrapdocs.com/v3.3.4/docs/dist/js/bootstrap.min.js"></script>
+        <script src="https://bootstrapdocs.com/v3.3.4/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="/assets/js/library-script.js"></script>
+        <script src="assets/js/main-script.js"></script>
+  </body>
+</html>
